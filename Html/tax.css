@@ -1,0 +1,39 @@
+body{
+background-image:url("C:/Users/newtam/Downloads/ZZebra");
+background-repeat:round;
+background-size:auto;
+text-align:center;
+}
+.mac{
+background:linear-gradient(to right, #ff9999, #00ffbf);
+box-shadow:3px 2px black;
+}
+h1{
+color:blue;
+text-shadow: 2px 2px black;
+font-size:50px;
+}
+h2{
+color:pink;
+text-shadow:3px 3px red;
+font-style:italic;
+text-transform:uppercase;
+
+.borderImg{
+border: 2px solid red;
+
+a{
+text-decoration:
+}
+
+}
+//
+ul li{
+color:white;
+font-size:20px;
+}
+ul<li{
+color:yellow;
+}
+
+

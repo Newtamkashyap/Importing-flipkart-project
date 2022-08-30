@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUMMYFLIPKART</title>
+    <style>
+        .top-header {
+            background-color: #2874F0;
+            height: 50px !important;
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        .slider-header {
+            background-color: hsl(0, 0%, 97%);
+            margin: 5px;
+            height: 150px;
+        }
+        
+        .middle-section {
+            background-color: hsl(0, 64%, 43%);
+            margin: 5px;
+            height: 300px;
+        }
+        
+        .bottom-section {
+            background-color: hsl(0, 51%, 92%);
+            margin: 5px;
+            height: 300px;
+        }
+    </style>
+    <script>
+        function imageWriter(startingIndex, finalIndex) {
+
+            images = ['offer zone', 'grocery', 'home', 'fashion', 'travel', 'electronic', 'appliance', 'beauty', 'mobiles', 'badminton', 'cooker', 'headphone', 'sarees', 'makeup', 'speakers'];
+            for (i = startingIndex; i < finalIndex; i++) {
+                console.log(images[i]);
+                let img = '<img src="images/' + images[i] + '.png' + ' " alt="">'
+                document.write(img);
+
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+
+    <section class="section top-header">
+
+        <input type="text" name="search" id="">
+        <button>More</button>
+        <button>Cart</button>
+        <button>Login</button>
+
+
+
+        <script>
+        </script>
+
+
+    </section>
+
+
+    <body>
+        <section class="section slider-header">
+            section2
+
+            <div id="header-images">
+
+                <script>
+                    image(0, 8);
+                    // images = ['offer zone', 'grocery', 'home', 'fashion', 'travel', 'electronic', 'appliance', 'beauty', 'mobiles'];
+                </script>
+
+            </div>
+
+
+
+        </section>
+        <section class="section middle-section">
+            section3
+        </section>
+        <section class="section bottom-section">
+            <h1> Deals of the day</h1>
+            <script>
+                image(10, 14);
+                // images = ['offer zone', 'grocery', 'home', 'fashion', 'travel', 'electronic', 'appliance', 'beauty', 'mobiles'];
+            </script>
+
+        </section>
+
+
+
+    </body>
+
+</html>
